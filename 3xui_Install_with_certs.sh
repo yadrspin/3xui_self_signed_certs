@@ -16,13 +16,13 @@ fi
 if [ -f "/usr/local/x-ui/x-ui" ]; then
 
 echo "------------------------------------------------------------------------------"
-echo "Done:"
+echo "Done. Connection info:"
 echo "------------------------------------------------------------------------------"
 echo -e "username: \e[1m${USER_EXT}\e[0m"
-echo -e "password:           \e[1m${PASS_EXT}\e[0m"
-echo -e "port:             \e[33m${PORT_EXT}\e[0m"
-echo -e "path to panel:      /${PATH_CLEAN}/"
-echo -e "link : \e[32m\e[4m${URL_EXT}\e[0m"
+echo -e "password: \e[1m${PASS_EXT}\e[0m"
+echo -e "port: \e[33m${PORT_EXT}\e[0m"
+echo -e "path to panel: /${PATH_CLEAN}/"
+echo -e "link: \e[32m\e[4m${URL_EXT}\e[0m"
 echo "----------------------------------------------------------------------------"
 echo ""
 echo -e "\e[1;36m Cert Info:\e[0m"
